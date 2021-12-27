@@ -1,0 +1,8 @@
+{
+  "extends": ["react", "tslint-config-prettier"],
+  "rules": {
+    "ter-indent": [true, 4, { "SwitchCase": true }],
+    "max-line-length": [true, 200],
+    "align": [false]
+  }
+}

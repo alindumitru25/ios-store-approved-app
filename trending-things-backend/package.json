@@ -1,0 +1,59 @@
+{
+  "name": "trending-things-backend",
+  "version": "1.0.0",
+  "description": "trending things be",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^4.0.0",
+    "email-templates": "^2.7.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "googleplaces": "^0.6.1",
+    "handlebars": "^4.0.11",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jimp": "^0.2.28",
+    "jsonwebtoken": "^7.3.0",
+    "jwt-simple": "^0.5.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.6",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-map": "^1.1.0",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "node-mailjet": "^3.2.1",
+    "nodemon": "^1.12.0",
+    "passport": "^0.3.2",
+    "passport-facebook-token": "^3.3.0",
+    "passport-jwt": "^2.2.1",
+    "path": "^0.12.7",
+    "socket.io": "^1.7.3",
+    "winston": "^3.0.0-rc4"
+  },
+  "devDependencies": {
+    "gridfs-stream": "^1.1.1"
+  },
+  "scripts": {
+    "start": "node index.js trending-things",
+    "stop": "fuser -k 3000/tcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "be"
+  },
+  "keywords": [
+    "backend",
+    "trending",
+    "things"
+  ],
+  "author": "alin dumitru",
+  "license": "CC-BY-NC-ND-4.0"
+}
