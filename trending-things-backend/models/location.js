@@ -4,7 +4,7 @@ Mongoose.Promise = Promise;
 var NearBySearch = require("googleplaces/lib/NearBySearch");
 
 // define google places config
-var apiKey = "AIzaSyBGeNF-D_BIDOvxV7ZWgdwd9FOX5ear3Ps";
+var apiKey = "";
 var outputFormat = "json";
 
 var nearbySearch = new NearBySearch(apiKey, outputFormat);
